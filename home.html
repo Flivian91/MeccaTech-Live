@@ -1,0 +1,930 @@
+<!-- HTML code For Meccatech Eletronics Shop -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="descriptions" content="MeccaTech a Online Electonic Shop powered by MeccaTech Campany operating from Kenya
+    on this web application users can buy and sell there Electronic gadgets with very cheap and realistic price
+    MeccaTech-Electronic Shop also offers free delivery country wide and goods which are not on a condition the customer 
+    requested eg spoilt or bad order MeccaTech allows This good to be returned and offers is offered for compensation of time.
+    ">
+    <meta
+      name="descriptions"
+      content="MeccaTech Modern E- Commerce Website selling electronic items online"
+    />
+    <meta name="author" content="Flivian mwirigi the Co-founder of MeccaTech">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MeccaTech- Electronic Shop</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/querries.css"/>
+    <link rel="icon" href="img/Tech Mecca Logo.webp" />
+  </head>
+  <body>
+    <!-- ======== HEADER SCTION============ -->
+    <header>
+      <div class="main-header">
+        <!-- ========PRIMARY HEADER SCTION============ -->
+        <div class="primary-header">
+          <div class="logo">
+            <img
+              src="img/Tech Mecca Logo.webp"
+              alt="MeccaTech Logo"
+            />
+          </div>
+          <div class="nav-bar">
+            <ul class="nav-list">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="contact-info">
+            <div class="email">
+              <a class="email email-link" href="#">
+                <ion-icon class="email-icon" name="mail"></ion-icon>
+                <p class="email-text">flivianDev@Gmail.com</p>
+              </a>
+            </div>
+
+            <span> &#124; </span>
+            <div class="call">
+              <a class="email email-link" href="#">
+                <ion-icon class="email-icon" name="call"></ion-icon>
+                <p class="call-number">+254718017191</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- ======== SECONDARY HEADER SCTION============ -->
+        <div class="secondary-header">
+          <div class="shop-by-category">
+            <a href="#">
+              <ion-icon
+              class="shop-by-category-icon"
+              name="reorder-two-outline"
+            ></ion-icon>
+            </a>
+            <a href="#" class="shop-by-category-text">Shop By Category</a>
+          </div>
+          <div class="search-box">
+            <input class="search-input" type="search" placeholder="Type Here" />
+            <button class="search-btn">
+              <span>Search</span>
+              <ion-icon class="search-icon" name="search-outline"></ion-icon>
+            </button>
+          </div>
+          <div class="login-section">
+            <a class="btn" href="index.html">
+              <ion-icon class="login-icon" name="person-outline"></ion-icon>
+              Login
+            </a>
+            <span>&#47;</span>
+            <a class="btn" href="#">Sign up</a>
+            <span>&#124;</span>
+            <div class="cart-div">
+              <p class="cart-number">0</p>
+              <ion-icon class="cart-icon" name="cart-outline"></ion-icon>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ======== BODY SCTION============ -->
+    <section>
+      <div class="main-body">
+        <!-- ======== PAGE LINKS LEFT SIDE============ -->
+        <div class="link-section">
+          <ul class="link-list">
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon class="icon" name="laptop-outline"> </ion-icon>
+                  <span>Computer & Accessories</span>
+                </div>
+
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon class="icon" name="camera-outline"></ion-icon>
+                  <span>Camera, Audio & Phone</span>
+                </div>
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon
+                    class="icon"
+                    name="phone-portrait-outline"
+                  ></ion-icon>
+
+                  <span>SmartPhone and Phone</span>
+                </div>
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon
+                    class="icon"
+                    name="tablet-landscape-outline"
+                  ></ion-icon>
+
+                  <span>Laptops and Tablets</span>
+                </div>
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon class="icon" name="Home-outline"></ion-icon>
+
+                  <span>Smart Homes</span>
+                </div>
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon class="icon" name="watch-outline"></ion-icon>
+
+                  <span>Watches & Eyewear</span>
+                </div>
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon class="icon" name="headset-outline"></ion-icon>
+
+                  <span>Headphones and speaker</span>
+                </div>
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon class="icon" name="car-sport-outline"></ion-icon>
+
+                  <span>Car, motorbike and speaker</span>
+                </div>
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="items-name">
+                  <ion-icon class="icon" name="analytics-outline"></ion-icon>
+
+                  <span>Accessories</span>
+                </div>
+                <ion-icon
+                  class="chevron-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- FEATURES SECTION ON THE CENTER -->
+        <div class="feature-section">
+          <div class="smarttv-box">
+            <div class="smarttv-text">
+              <p>TV Shop</p>
+              <a class="shop-smarttv-btn" href="#">Shop Now</a>
+            </div>
+
+            <img
+              src="img/smartTv2.webp"
+              alt="The Best Smart TVs For Streaming In 2024 "
+            />
+          </div>
+          <div class="services">
+            <div class="free-delivery">
+              <ion-icon class="delivery-icon" name="bag-handle-outline"></ion-icon>
+              <div class="delivery-info">
+                <h3>Free Delivery</h3>
+                <p>On All Order</p>
+              </div>
+            </div>
+            <span>&#124</span>
+            <div class="free-delivery">
+              <ion-icon class="delivery-icon" name="call-outline"></ion-icon>
+              <div class="delivery-info">
+                <h3>Online Support</h3>
+                <p>Technical 24&#47;7</p>
+              </div>
+            </div>
+            <span>&#124</span>
+            <div class="free-delivery">
+              <ion-icon class="delivery-icon" name="save-outline"></ion-icon>
+              <div class="delivery-info">
+                <h3>Big Saving</h3>
+                <p>Weeken Sales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ASIDE SECTION HODING AN ADVERT -->
+        <div class="aside-section">
+          <div class="aside">
+            <div class="item-image">
+              <span class="sale">
+                Sale
+              </span>
+              <a href="#">
+                <img src="img/ps pad controller.webp" alt="PS5 wireless Pad Controller">
+
+              </a>
+              
+            </div>
+            <div class="item-name">
+              <a class="name-link" href="#">Sonny Dual Sense Controller + usb 3.0 Cable</a>
+              <div class="price">
+                <del> Ksh110000</del>
+                <strong>Ksh89000</strong>
+              </div>
+              <div class="star-rating">
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+                <ion-icon class="star-icon" name="star-half"></ion-icon>
+              </div>
+              <div class="add-cart-btn">
+                <a href="#">
+                  <span>Add to Cart</span>
+                  <ion-icon class="bag-icon" name="bag-outline"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BODY SECTION WITH THA ACTUAL CONTENT -->
+    <section class="minor-body">
+      <div class="common-product">
+        <div class="product">
+          <div class="product-name">
+            <h2>Apple</h2>
+            <p>New Product</p>
+            <a href="#">
+              Shop
+            </a>
+          </div>
+        </div>
+        <div class="product2 product">
+          <div class="product-name">
+            <h2>Flying Drone</h2>
+            <p>New Product</p>
+            <a href="#">
+              Shop
+            </a>
+          </div>
+        </div>
+        <div class="product3 product">
+          <div class="product-name">
+            <h2>Cleaning machine</h2>
+            <p>New Product</p>
+            <a href="#">
+              Shop
+            </a>
+          </div>
+        </div>
+        <div class="product4 product">
+          <div class="product-name">
+            <h2>Coffee Macker</h2>
+            <p>New Product</p>
+            <a href="#">
+              Shop
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="most-popular">
+      <div>
+        <h2>Most Popular</h2>
+      </div>
+      <div>
+        <p class="empty-space"></p>
+      </div>
+      <div>
+        <a class="expore-btn" href="#">Explore All</a>
+      </div>
+    </section>
+    <!-- POPULAR PRODUCTS IN THW BUSINESS -->
+    <section class="popular-section">
+      <div class="popular">
+        <!-- Camera Section -->
+        <div class="popular-description">
+          <div class="popular-image">
+            <img src="img/camera digital.webp" alt="Canon EOS 4000D DSLR Camera with high Resolution and Pixels">
+          </div>
+          <div class="popular-item-details">
+            <a href="#">
+              Canon EOS 4000D DSLR Camera
+            </a>
+          </div>
+          <div class="popular-rating">
+            <p>Mirrorless System <em>a</em>7 Original</p>
+            <div>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+            </div>
+          </div>
+          <div class="popular-price">
+            <div class="amount">
+              <del>Ksh250,000</del>
+              <strong>Ksh200,000</strong>
+            </div>
+            <a href="#">
+              <ion-icon class="popular-bag-icon" name="bag-outline"></ion-icon>         
+            </a> 
+          </div>    
+        </div>       
+        <!-- Bread Image Section -->
+        <div class="popular-description">
+          <div class="popular-image">
+            <a href="#">
+              <img src="img/bread maker.webp" alt="Electrical bread roaster with 2 slots">
+            </a>
+          </div>
+          <div class="popular-item-details">
+            <a href="#">
+              Modern Electric Pop up Toaster
+            </a>
+          </div>
+          <div class="popular-rating">
+            <p> <strong>2</strong> slice slot Toaster</p>
+            <div>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+            </div>
+          </div>
+          <div class="popular-price">
+            <div class="amount">
+              <del>Ksh3000</del>
+              <strong>Ksh2200</strong>
+            </div>
+           
+            <a href="#">
+              <ion-icon class="popular-bag-icon" name="bag-outline"></ion-icon>         
+            </a>       
+          </div>     
+        </div>       
+        <!-- HeadPhones section -->
+        <div class="popular-description">
+          <div class="popular-image">
+            <a href="#">
+              <img src="img/headphones.webp" alt="Sonny WH-CH520L HeadPhones Bluetooth and noise cancelling">
+            </a>
+          </div>
+          <div class="popular-item-details">
+            <a href="#">
+              Sonny WH-CH520L HeadPhones
+            </a>
+          </div>
+          <div class="popular-rating">
+            <p>Wireless Bluetooth Noise free</p>
+            <div>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+            </div>
+          </div>
+          <div class="popular-price">
+            <div class="amount">
+              <del>Ksh2500</del>
+              <strong>Ksh1800</strong>
+            </div>
+            <a href="#">
+              <ion-icon class="popular-bag-icon" name="bag-outline"></ion-icon>          
+            </a>   
+          </div>
+        </div>       
+        <!-- Laptop section -->
+        <div class="popular-description">
+          <div class="popular-image">
+            <img src="img/macbook laptop.webp" alt="Apple MackBook Pro A2251 16GB RAM and 512GB SSD">
+          </div>
+          <div class="popular-item-details">
+            <a href="#">
+              Apple MackBook Elite A2251
+            </a>
+          </div>
+          <div class="popular-rating">
+            <p>13inch Core i7 16GB RAM 512GB...</p>
+            <div>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+            </div>
+          </div>
+          <div class="popular-price">
+            <div class="amount">
+              <del>Ksh122000</del>
+              <strong>Ksh99999</strong>              
+            </div>
+            <a href="#">
+              <ion-icon class="popular-bag-icon" name="bag-outline"></ion-icon>         
+            </a>
+          </div>
+        </div>            
+      </div>
+    </section>
+    <!-- OUR FEATURES SECTION -->
+    <section class="featured-offer-section">
+      <div class="most-popular section2">
+        <div>
+          <h2>Our featured Offers</h2>
+        </div>
+        <div>
+          <p class="empty-space"></p>
+        </div>
+        <div class="icon-for-back">
+          <a href="#">
+          <ion-icon class="featured-icon" name="chevron-back-outline"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon class="featured-icon" name="chevron-forward-outline"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="featured-offers">
+        <!-- Laptop section -->
+        <div class="popular-description featured-decription">
+          <div class="sale-offer">
+            <p class="featured-sale">Sale!</p>
+          </div>
+          <div class="popular-image">
+            <img src="img/image1.webp" alt="Vaccum Cleaner Electrolux">
+          </div>
+          <div class="popular-item-details featured-item-details">
+            <a href="#">
+              Vaccum Cleaner Pro
+            </a>
+          </div>
+          <div class="popular-rating featured-rating">
+            <p>Electrolux UltraFlex</p>
+            <div>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+          <div class="popular-price">
+            <div class="amount">
+              <del>Ksh12300</del>
+              <strong>Ksh10800</strong>              
+            </div>
+            <a href="#">
+              <ion-icon class="popular-bag-icon" name="bag-outline"></ion-icon>         
+            </a>
+          </div>
+        </div>   
+        <div class="popular-description featured-decription">
+          <div class="sale-offer">
+            <!--To be applied Later 
+              <ion-icon name="gift-outline"></ion-icon> -->
+            <p class="featured-sale">Sale!</p>
+          </div>
+          <div class="popular-image">
+            <img src="img/image2.webp" alt="Coffee Maker Electrolux 19 slots Automatic">
+          </div>
+          <div class="popular-item-details featured-item-details">
+            <a href="#">
+             TM2 Coffee Maker
+            </a>
+          </div>
+          <div class="popular-rating featured-rating">
+            <p>19 bar semi Automatic...</p>
+            <div>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+          <div class="popular-price">
+            <div class="amount">
+              <del>Ksh122000</del>
+              <strong>Ksh99999</strong>              
+            </div>
+            <a href="#">
+              <ion-icon class="popular-bag-icon" name="bag-outline"></ion-icon>         
+            </a>
+          </div>
+        </div>            
+        <div class="popular-description featured-decription">
+          <div class="sale-offer">
+            <!--To be applied Later 
+              <ion-icon name="gift-outline"></ion-icon> -->
+            <p class="featured-sale">Sale!</p>
+          </div>
+          <div class="popular-image">
+            <img src="img/image3.webp" alt="DXD Fridge WITH 2 Door Drawer">
+          </div>
+          <div class="popular-item-details featured-item-details">
+            <a href="#">
+              DXD Fridge Freeze
+            </a>
+          </div>
+          <div class="popular-rating featured-rating">
+            <p>2 Door Two Drawer...</p>
+            <div>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          </div>
+          <div class="popular-price">
+            <div class="amount">
+              <del>Ksh12500</del>
+              <strong>Ksh10800</strong>              
+            </div>
+            <a href="#">
+              <ion-icon class="popular-bag-icon" name="bag-outline"></ion-icon>         
+            </a>
+          </div>
+        </div>     
+        <div class="popular-description featured-decription">
+          <div class="sale-offer">
+            <!--To be applied Later 
+              <ion-icon name="gift-outline"></ion-icon> -->
+            <p class="featured-sale">Sale!</p>
+          </div>
+          <div class="popular-image">
+            <img src="img/image4.webp" alt="Drone DJI Mini 4 pro with 34 minutes of flight time">
+          </div>
+          <div class="popular-item-details featured-item-details">
+            <a href="#">
+              Drone DJI Mini 4 Pro
+            </a>
+          </div>
+          <div class="popular-rating featured-rating">
+            <p>34 mins flight time...</p>
+            <div>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>             
+            </div>
+          </div>
+          <div class="popular-price">
+            <div class="amount">
+              <del>Ksh45000</del>
+              <strong>Ksh40000</strong>              
+            </div>
+            <a href="#">
+              <ion-icon class="popular-bag-icon" name="bag-outline"></ion-icon>         
+            </a>
+          </div>
+        </div>                   
+      </div>
+    </section>
+    <section class="common-advert-section">
+      <!-- &#8221; -->
+      <div class="common-advert">
+        <div class="advert1">
+          <h4>
+            Health And Fit
+          </h4>
+          <h1>Health Care Monitor</h1>
+          <a href="#">Shop</a>
+        </div>
+        <div class="advert2">
+          <h4>
+            High Tech product
+          </h4>
+          <h1>
+            Monster Beat headphones
+          </h1>
+          <a href="#">
+            Shop
+          </a>
+        </div>
+        <div class="advert3">
+          <h4>
+            Play The Dream
+          </h4>
+          <h1>
+            Nikon Ultimate Zoom Picture
+          </h1>
+          <a href="#">
+            Shop
+          </a>
+        </div>
+        <div class="advert4">
+          <h4>
+            inimalism Design
+          </h4>
+          <h1>
+            Music Makes Feel better
+          </h1>
+          <a href="#">
+            Shop
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Customer Says Section -->
+    <section class="most-popular section3">
+      <div>
+        <h2>Customer Says</h2>
+      </div>
+      <div>
+        <p class="empty-space"></p>
+      </div>
+    </section>
+    <section class="customer-says-section">
+      <div class="customer-says">
+        <div class="customer">
+          <div class="customer-details">
+            <img src="img/profile1.webp" alt="Customer Says about the product">
+            <div class="customer-name">
+              <h2>Flivian Mwirigi</h2>
+              <p>CEO at Coding</p>
+            </div>
+          </div>
+          <div class="word">
+            <p>There are many variations of passages  
+              of Lorem Ipsum available, but the majority 
+              have suffered alteration .</p>
+          </div>
+        </div>
+        <div class="customer">
+          <div class="customer-details">
+            <img src="img/profile2.webp" alt="Customer Says about the product">
+
+            <div class="customer-name">
+              <h2>Alpha Mureti</h2>
+              <p>Senior Programmer</p>
+            </div>
+          </div>
+          <div class="word">
+            <p>There are many variations of passages  
+              of Lorem Ipsum available, but the majority 
+              have suffered alteration .</p>
+          </div>
+        </div>
+        <div class="customer">
+          <div class="customer-details">
+            <img src="img/profile3.webp" alt="Customer Says about the product">
+            <div class="customer-name">
+              <h2>Eugine Maina</h2>
+              <p>Senior Product Manager</p>
+            </div>
+          </div>
+          <div class="word">
+            <p>There are many variations of passages  
+              of Lorem Ipsum available, but the majority 
+              have suffered alteration .</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- As featured in Section -->
+    <section class="most-popular section4">
+      <div>
+        <h2>As featured in</h2>
+      </div>
+      <div>
+        <p class="empty-space"></p>
+      </div>
+    </section>
+    <section class="as-featured-in-section">
+      <div class="as-featured-in">
+        <div class="logo1">
+          <img src="img/business-insider.png" alt="Logo for client 1">
+        </div>
+        <div class="logo2">
+          <img src="img/forbes.png" alt="Logo for client 2">
+        </div>
+        <div class="logo3">
+          <img src="img/techcrunch.png" alt="Logo for client 3">
+        </div>
+        <div class="logo4">
+          <img src="img/the-new-york-times.png" alt="Logo for client 4">
+        </div>
+        <div class="logo5">
+          <img src="img/usa-today.png" alt="Logo for client 5">
+        </div>
+      </div>
+    </section>
+    <!-- Latest news Indicator -->
+    <section class="most-popular section">
+      <div>
+        <h2>Latest News</h2>
+      </div>
+      <div>
+        <p class="empty-space"></p>
+      </div>
+      <div>
+        <a class="expore-btn" href="#">Explore All</a>
+      </div>
+    </section>
+    <!-- Latest news Section -->
+    <section class="latest-news-section">
+      <div class="latest-news">
+        <a class="news" href="#">
+          <img src="img/business pic1.webp" alt="Young business Youth conduction business">
+          <div>
+            <h2>Octobar 26, 2023</h2>
+            <p>When, While The Lovely Valley Teems With Vap ...</p>
+          </div>
+        </a>
+        <a class="news" href="#">
+          <img src="img/business pic2.webp" alt="Young business Youth conduction business">
+          <div>
+            <h2>January 04, 2023</h2>
+            <p>When, While The Lovely Valley Teems With Vap ...</p>
+          </div>
+        </a>
+        <a class="news" href="#">
+          <img src="img/business pic3.webp" alt="Young business Youth conduction business">
+          <div>
+            <h2>January 15, 2023</h2>
+            <p>When, While The Lovely Valley Teems With Vap ...</p>
+          </div>
+        </a>
+        <a class="news" href="#">
+          <img src="img/business pic4.webp" alt="Young business Youth conduction business">
+          <div>
+            <h2>January 27, 2023</h2>
+            <p>When, While The Lovely Valley Teems With Vap ...</p>
+          </div>
+        </a>
+        <a class="news" href="#">
+          <img src="img/business pic5.webp" alt="Young business Youth conduction business">
+          <div>
+            <h2>February 2, 2023</h2>
+            <p>When, While The Lovely Valley Teems With Vap ...</p>
+          </div>
+        </a>     
+      </div>
+    </section>
+    <section class="most-popular section5">
+      <div>
+        <p class="empty-space"></p>
+      </div>
+    </section>
+    <footer class="footer-section">
+      <div class="footer">
+        <!-- Top part of the page -->
+        <div class="top-footer">
+          <div class="left-top-footer">
+            <img src="img/Tech Mecca Logo.webp" alt="MeccaTech logo on footer">
+            <p>There are many variations of passages of Lorem Ipsum available, 
+              but the majority have suffered alteration in some formed humour </p>
+          </div>
+          <div class="middle-top-footer">
+            <div class="meet-meccatech">
+              <h1>Meet MeccaTech</h1>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Features</a>
+              <a href="#">Team</a>
+              <a href="#">Contact us</a>
+              <a href="#">Our Ecosystem</a>
+            </div>
+            <div class="quicklink">
+              <h1>Quick Link</h1>
+              <a href="#">News</a>
+              <a href="#">Article</a>
+              <a href="#">Help center</a>
+              <a href="#">Careers</a>
+              <a href="#">License</a>
+              <a href="#">Freebies</a>
+
+            </div>
+            <div class="categorylink">
+              <h1>Category Link</h1>
+              <a href="#">Graphics</a>
+              <a href="#">Video</a>
+              <a href="#">presentation</a>
+              <a href="#">Photos</a>
+              <a href="#">Font</a>
+              <a href="#">Web template</a>
+            </div>
+          </div>
+          <div class="right-top-footer">
+            <div class="follow-us">
+              <h1>Follow Us</h1>
+              <div class="social-media">
+                <ion-icon class="social-media-icon" name="logo-facebook"></ion-icon>
+                <ion-icon class="social-media-icon" name="logo-twitter"></ion-icon>
+                <ion-icon class="social-media-icon" name="logo-instagram"></ion-icon>
+                <ion-icon class="social-media-icon" name="logo-linkedin"></ion-icon>
+                <ion-icon class="social-media-icon" name="logo-github"></ion-icon>
+                <ion-icon class="social-media-icon" name="logo-whatsapp"></ion-icon>
+              </div>
+            </div>
+            <section class="section7">
+              <div>
+                <p class="empty-space"></p>
+              </div>
+            </section>
+            <div class="subscribe">
+              <div class="subscribe-option">
+                <h1>Subscribe</h1>
+                <p>Send me tips, trends, freebies, updates & offers.</p>
+              </div>
+              <div class="subscribe-form">
+                <form action="#" autocomplete="on" netlify>
+                  <input class="email-input" type="email" placeholder="Email Address">
+                  <input class="subscribe-button" type="button" value="Subscribe">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="section6">
+          <div>
+            <p class="empty-space"></p>
+          </div>
+        </section>
+        <!-- lower Part of the footer -->
+        <div class="lower-footer">
+          <div class="copyright">
+            © 2024 Electronic Shop - <a class="meccatech" href="#">MeccaTech</a>  All rights reserved.
+          </div>
+          <div class="conditions">
+            <p>Terms and Conditions</p>
+            <span>&#124;</span>
+            <p>Privacy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
